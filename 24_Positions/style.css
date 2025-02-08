@@ -1,0 +1,53 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(188,100%,63%);    
+
+    /*it will place the object where it use to be*/
+    position: relative;
+
+    /* this will push the object 100px on their direction*/
+    top: 100px;
+    left: 1000px;
+}
+
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: red;    
+    /*this will place the object in the fixed position*/
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+#box3{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;    
+    /*similar to fixed but the contentes will adjust and not floating */
+    position: sticky;
+    top: 100px;
+    left:100px;
+}
+
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: violet;    
+    /*the object will depend on the position of parent object*/
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#box5{
+    width: 100px;
+    height: 100px;
+    background-color: green;    
+    /*place the object into its original position*/
+    position: static;
+    top: 50px;
+    left: 50px;
+}

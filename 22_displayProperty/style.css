@@ -1,0 +1,58 @@
+div{
+    background-color: hsl(0, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+span{
+    background-color: hsl(204,100%,75%);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+#div1{
+    background-color: hsl(0, 100%, 75%);
+    display: inline;
+}
+
+#span1{
+    background-color: hsl(204,100%,75%);
+    display: inline;
+}
+
+
+#div2{
+    background-color: hsl(0, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#span2{
+    background-color: hsl(204,100%,75%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#div3{
+    background-color: hsl(0, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+#span3{
+    background-color: hsl(204,100%,75%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#pharagraph{
+    display: none;
+}
+

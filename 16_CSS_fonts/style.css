@@ -1,0 +1,28 @@
+@font-face{
+    src: url(fonts/OpenSans-VariableFont.ttf);
+    font-family: OpenSans-VariableFont;
+}
+
+@font-face{
+    src: url(fonts/Roboto-Light.ttf);
+    font-family:Roboto-Light ;
+}
+h1{
+    font-family: Roboto, Verdana, Arial;
+}
+
+#p1{
+    font-family: "Open Sans","lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#h2{
+    font-family: Roboto-Light;
+
+}
+
+#p2{
+    font-family: OpenSans-VariableFont;
+}

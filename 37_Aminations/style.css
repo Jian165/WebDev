@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0,100%,62%);
+    font-size:13em;
+    text-align: center;
+    animation-name:slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.25,-0.55, 0.84, 2.49);
+
+    /*
+    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: steps(10);
+     */
+
+    /*
+    animation-play-state: paused;
+    */
+
+    /*
+    animation-direction: alternate-reverse;
+    animation-direction: alternate;
+    animation-direction: reverse;
+    animation-direction: normal;
+     */
+
+    /*
+    animation-iteration-count: infinite;
+    animation-iteration-count: 2;
+    */
+
+    /* use when using fade in animation
+    opacity: 0;
+     */
+}
+/*
+-  make sure that there is no animation at the above
+#box:active{
+    animation-name: glow2;
+    animation-duration: 2s;
+}
+#box:hover{
+    animation-name: glow2;
+    animation-duration: 2s;
+}
+*/
+@keyframes glow2{
+    50%{box-shadow: 0px 0px 50px  hsl(103,100%,62%)};
+}
+
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px  hsl(63,100%,50%)};
+}
+@keyframes colorChange{
+    0%{background-color:hsl(0,100%,62%)}
+    20%{background-color:hsl(35,100%,62%)}
+    40%{background-color:hsl(63,100%,62%)}
+    60%{background-color:hsl(103,100%,62%)}
+    80%{background-color:hsl(201,100%,62%)}
+    100%{background-color:hsl(268,100%,62%)}
+}
+@keyframes fadeIn{
+    100%{opacity: 1;}
+}
+
+@keyframes fade{
+    50%{opacity: 0;}
+}
+
+@keyframes shrink{
+    50%{transform: scale(0.5,0.5);}
+    /*
+    100%{transform: scale(2,2);}
+    */
+}
+
+@keyframes grow{
+    50%{transform: scale(2,2);}
+
+    /*
+    100%{transform: scale(2,2);}
+    */
+}
+
+@keyframes rotate{
+
+    25%{transform: rotateZ(360deg)};
+    /*
+    100%{transform: rotateZ(360deg)};
+    100%{transform: rotateY(360deg)};
+    100%{transform: rotateX(360deg)};
+    */
+}
+@keyframes slidedown{
+    to{transform: translateY(300%);}
+}
+@keyframes slideUp{
+    from{transform: translateY(300%);}
+}
+@keyframes slideRight{
+    to{transform: translateX(300%);}
+}
+@keyframes slideLeft{
+    from{
+        transform: translateX(300%);
+        /*
+        transform: translateX(100px);
+         */
+    }
+}

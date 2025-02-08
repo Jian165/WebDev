@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+   border: 10px solid black; 
+   height: 90vh;
+
+   /*
+
+   flex-wrap: wrap;
+   align-content: flex-start;
+   column-gap: 2em;
+   row-gap: 2em;
+   flex-wrap: wrap;
+
+   align-content: space-between;
+
+   flex-wrap: wrap;
+   align-content: space-evenly;
+
+   flex-wrap: wrap;
+   align-content: center;
+
+   flex-wrap: wrap;
+   align-content: end;
+
+   flex-wrap: wrap;
+   align-content: flex-start;
+    */
+
+   /*
+   flex-wrap: wrap-reverse;
+   flex-wrap: nowrap;
+   flex-wrap: wrap;
+    */
+
+    /*
+    align-items: baseline;
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+     */
+
+    /*
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+     */
+
+    /*
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+     */
+
+
+    /*
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+     */
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: hsl(0,100%,70%);
+    
+    /*
+    order: -1;
+    order: 1;
+    */
+
+    /*
+    align-self: end;
+    align-self: end;
+    align-self: start;
+     */
+}
+#box2{
+    background-color: hsl(52,100%,70%);
+}
+#box3{
+    background-color: hsl(111,100%,70%);
+}
+#box4{
+    background-color: hsl(201,100%,70%);
+}

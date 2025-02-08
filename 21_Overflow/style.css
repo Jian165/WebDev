@@ -1,0 +1,30 @@
+#div1{
+    border: 2px solid;
+    height: 75px;
+    overflow: visible;
+}
+
+#div2{
+    border: 2px solid;
+    height: 75px;
+    overflow: hidden;
+}
+
+#div3{
+    border: 2px solid;
+    height: 75px;
+    overflow: clip;
+    overflow-clip-margin: 13px;
+}
+
+#div4{
+    border: 2px solid;
+    height: 75px;
+    overflow: scroll;
+}
+
+#div5{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
